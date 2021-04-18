@@ -1,1 +1,1 @@
-# khong co readme dau
+# lười làm :)
