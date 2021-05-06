@@ -1,10 +1,12 @@
 # lười làm :)
   nhưng mà...
-## discord này
+### discord này
   https://minhlacon.ga/discord
-## fb này
+### fb này
   https://minhlacon.ga/info
-## CV này
+### CV này
   à thôi không public đâu :')
-## mail
+### mail
    info@minhlacon.ga
+
+[^1] alo
