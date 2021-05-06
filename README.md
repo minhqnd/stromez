@@ -12,6 +12,6 @@
 
 ## Vài link khác
 #### Sinh nhật này <(")
-birtday[https://minhlacon.ga/birthday]
+bỉtday [https://minhlacon.ga/birthday]
 #### CV
 à cái này chưa public đc :))
