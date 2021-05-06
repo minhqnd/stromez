@@ -8,7 +8,7 @@
 
 **Discord:** [stromez#2398](https://discordapp.com/users/457802322190401546)
 
-**Telegram:** [@zem0rts](https://t.me/zem0rts)
+**Telegram:** [@zemorts](https://t.me/zemorts)
 
 **Mail:** info@minhlacon.ga
 
