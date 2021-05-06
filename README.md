@@ -1,7 +1,7 @@
 # lười làm :)
   nhưng mà...
 ## Thông tin liên hệ
-**Minh Quang**
+### **Minh Quang**
 ### FB: 
  therealstromez
 ### IG: 
