@@ -2,11 +2,13 @@
   nhưng mà...
 ## Thông tin liên hệ
 ### **Minh Quang**
-**FB:** therealstromez
+**FB:** (therealstromez)[https://fb.com/therealstromez]
 
-**IG:** therealstromez
+**IG:** (therealstromez)[https://instagram.com/therealstromez]
 
-**Discord:** stromez#2398
+**Discord:** (stromez#2398)[https://discordapp.com/users/457802322190401546]
+
+**Telegram:** (@zem0rts)[https://t.me/zem0rts]
 
 **Mail:** info@minhlacon.ga
 
