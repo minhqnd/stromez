@@ -1,12 +1,12 @@
 # lười làm :)
   nhưng mà...
-### discord này
-  https://minhlacon.ga/discord
-### fb này
-  https://minhlacon.ga/info
-### CV này
-  à thôi không public đâu :')
-### mail
-   info@minhlacon.ga
-
-[^1] alo
+## Thông tin liên hệ
+**Minh Quang**
+### FB: 
+ therealstromez
+### IG: 
+ therealstromez
+### Discord: 
+ stromez#2398
+### Mail:
+ info@minhlacon.ga
