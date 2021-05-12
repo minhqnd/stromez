@@ -57,14 +57,14 @@ li span {
 }
 .giftbox > div:after, .giftbox > div:before {
   position: absolute;
-  content: "";
+  content: ":)";
   top: 0;
 }
 .giftbox:after {
   position: absolute;
   color: #fff;
   width: 100%;
-  content: "";
+  content: ":)";
   left: 0;
   bottom: 0;
   font-size: 24px;
