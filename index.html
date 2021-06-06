@@ -47,6 +47,17 @@ body, html {
   padding: 20px;
   text-align: center;
 }
+
+<script type="text/javascript"> 
+var totalCount = 18;
+function ChangeIt() 
+{
+var num = Math.ceil( Math.random() * totalCount );
+document.body.background = 'img/'+num+'.jpg';
+document.body.style.backgroundSize = "cover";// Background repeat
+}
+</script>
+
 </style>
 </head>
 <body>
