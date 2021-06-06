@@ -52,28 +52,10 @@ body, html {
 </head>
 <body>
 
-<div class="bg-image img11"></div>
+<div class="bg-image img1"></div>
 
 <a class="bg-text" style="text-decoration:none" href="https://www.minhlacon.ga/README">MEANN</a>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript">
-        var images = ["2.JPG", "3.JPG", "4.JPG", "Jellyfish.jpg", "Koala.jpg", "Lighthouse.jpg", "Penguins.jpg", "Tulips.jpg"];
-        $(function () {
-            var i = 0;
-            $("#dvImage").css("background-image", "url("https://www.minhlacon.ga/img/13.JPG");
-            setInterval(function () {
-                i++;
-                if (i == images.length) {
-                    i = 0;
-                }
-                $("#dvImage").fadeOut("slow", function () {
-                    $(this).css("background-image", "url(img/" + images[i] );
-                    $(this).fadeIn("slow");
-                });
-            }, 1000);
-        });
-    </script>
 
 </body>
 </html>
