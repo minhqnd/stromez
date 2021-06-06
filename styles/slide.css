@@ -1,7 +1,7 @@
 [data-slides] {
-	background-image: url(/img/3.PNG); /* Default image. */
+	background-image: url(/img/1.PNG); /* Default image. */
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: center;
 	background-size: cover;
 	transition: background-image 1s linear;
 }
