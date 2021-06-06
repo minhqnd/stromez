@@ -13,16 +13,6 @@ body, html {
   box-sizing: border-box;
 }
 
-.bg-image {
-  /* Full height */
-  height: 50%; 
-  
- 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .img1 { background-image: url("img/1.PNG"); }
 .img2 { background-image: url("img/2.JPG"); }
 .img3 { background-image: url("img/3.JPG"); }
@@ -50,13 +40,11 @@ body, html {
 
 </style>
 
-<div class="bg-image img1"></div>
-
 <div id="dvImage" style="height: 308px; width: 410px">
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript">
-    var images = ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8"];
+    var images = ["img/1.PNG", "img/2.JPG", "img/3.JPG", "img/4.JPG", "img/5.JPG", "img/6.JPG", "img/7.JPG", "img/8.JPG"];
     $(function () {
         var i = 0;
         $("#dvImage").css("background-image", "url(images/" + images[i] + ")");
