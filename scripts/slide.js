@@ -9,7 +9,7 @@
 		$slides
 			.css('background-image', 'url("' + images[Math.floor(Math.random() * count)] + '")')
 			.show(0, function() {
-				setTimeout(slideshow, 5000);
+				setTimeout(slideshow, 2000);
 			});
 	};
 	
