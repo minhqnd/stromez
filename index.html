@@ -105,7 +105,9 @@ body, html {
   </div>
 </div>
 
-<span class="bg-text"; cursor:pointer" onclick="openNav()">MEANN.</span>
+<div id="bg" class="bg-text">
+<span style="cursor:pointer" onclick="openNav()">MEANN.</span>
+</div>
 
 <img class="mySlides w3-animate-fading bg-image" src="/img/13.JPG">
 <img class="mySlides w3-animate-fading bg-image" src="/img/2.JPG">
@@ -144,10 +146,13 @@ function carousel() {
 
 function openNav() {
   document.getElementById("myNav").style.height = "100%";
+  document.getElementById("bg").style.top = "1000%";
 }
 
 function closeNav() {
   document.getElementById("myNav").style.height = "0%";
+  document.getElementById("bg").style.top = "50%";
+
 }
 
 </script>
