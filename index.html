@@ -16,27 +16,42 @@ body, html {
   box-sizing: border-box;
 }
 
-.mySlides {display: none;}
-
-.active {
-  background-color: #717171;
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
 }
 
 .bg-image {
@@ -47,11 +62,9 @@ body, html {
             object-position: center;
 }
 
-
-/* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
   color: white;
   font-weight: bold;
   font-size: 50px;
@@ -69,7 +82,18 @@ body, html {
 </head>
 <body>
 
-<a class="bg-text" style="text-decoration:none" href="https://www.minhlacon.ga/README">MEANN.</a>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<span class="bg-text"; cursor:pointer" onclick="openNav()">MEANN.</span>
+
 <img class="mySlides w3-animate-fading bg-image" src="/img/13.JPG">
 <img class="mySlides w3-animate-fading bg-image" src="/img/2.JPG">
 <img class="mySlides w3-animate-fading bg-image" src="/img/3.JPG">
@@ -103,6 +127,14 @@ function carousel() {
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 9000);    
+}
+
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
 }
 
 </script>
