@@ -2,7 +2,9 @@
   nhưng mà...
 ## Thông tin liên hệ
 ### **Minh Quang**
-**FB:** [therealstromez](https://fb.com/therealstromez)
+**FB:** ~~therealstromez~~
+
+**Messenger** [therealstromez](https://www.facebook.com/messages/t/therealstromez)
 
 **IG:** [therealstromez](https://instagram.com/therealstromez)
 
@@ -10,10 +12,10 @@
 
 **Telegram:** [@zemorts](https://t.me/zemorts)
 
-**Mail:** info@minhlacon.ga
+**Mail:** [info@minhlacon.ga](mailto:info@minhlacon.ga)
 
 ## Vài link khác
 #### Sinh nhật này <(")
-[here](https://minhlacon.ga/birthday)
+[`here`](https://minhlacon.ga/birthday)
 #### CV
-à cái này chưa public đc :))
+`~~Download~~`
